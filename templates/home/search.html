@@ -1,12 +1,12 @@
 {% extends 'base.html' %}
 
-{% block title %} BlogHome {% endblock title %}
+{% block title %} Search Results {% endblock title %}
 {% block blogactive %} active {% endblock blogactive %} 
 
 
 {% block body %}
 <div class="container my-3">
-    <h2>Coding Articles by iCoder</h2>
+    <h2>Search results : </h2>
     {% for post in allPosts  %}
     <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 my-4 position-relative">
         <div class="col p-4 d-flex flex-column position-static">
